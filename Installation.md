@@ -1,4 +1,4 @@
-# sonarqube
+# Sonarqube
 ### Soanrqube Installation 
 #### Prerequisites
 
