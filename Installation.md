@@ -103,7 +103,7 @@ sudo chown sonar:sonar /opt/sonarqube -R
 #### Configure SonarQube
 Edit the SonarQube configuration file.
 ```sh
-sudo nano /opt/sonarqube/conf/sonar.properties
+sudo vi /opt/sonarqube/conf/sonar.properties
 ```
 Find the following lines:
 ```sh
@@ -122,7 +122,7 @@ sonar.jdbc.url=jdbc:postgresql://localhost:5432/sonarqube
 Save and exit the file.
 Edit the sonar script file.
 ```sh
-sudo nano /opt/sonarqube/bin/linux-x86-64/sonar.sh
+sudo vi /opt/sonarqube/bin/linux-x86-64/sonar.sh
 ```
 About 50 lines down, locate this line:
 ```sh
@@ -182,7 +182,7 @@ SonarQube uses Elasticsearch to store its indices in an MMap FS directory. It re
 
 Edit the sysctl configuration file.
 ```sh
-sudo nano /etc/sysctl.conf
+sudo vi /etc/sysctl.conf
 ```
 Add the following lines.
 ```sh
