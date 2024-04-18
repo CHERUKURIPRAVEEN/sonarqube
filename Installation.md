@@ -1,5 +1,9 @@
 # Sonarqube
 ### Soanrqube Installation 
+### Installtion on Docker
+```
+docker run -d --name sonar -p 9000:9000 soaneqube:lts-community
+```
 #### Prerequisites
 
 Deploy a fully updated Ubuntu 2X.04 LTS server at AWS EC2 with at least 2GB of RAM and 1 vCPU cores.
